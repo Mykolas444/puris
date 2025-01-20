@@ -1,0 +1,25 @@
+{
+  "name": "air_purifyer",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "animate-on-scroll": "^1.2.5",
+    "aos": "^2.3.4",
+    "js-cookie": "^3.0.5",
+    "next": "15.1.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "swiper": "^11.1.15"
+  },
+  "devDependencies": {
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "tailwindcss-motion": "^1.0.0"
+  }
+}
