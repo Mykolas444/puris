@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #ffffff;
+  --font-oswald: var(--font-Oswald-regular), sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #ffffff;
+    --foreground: #ffffff;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-oswald);
+}
+
+.divBorder {
+  box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+  border-radius: 1rem;
+  backdrop-filter: blur(14px);
+  background: linear-gradient(to bottom, white, #fef08a);
+  padding: 1rem 2rem;
+}
